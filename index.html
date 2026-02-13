@@ -45,6 +45,7 @@
 
   <!-- Main -->
   <main>
+
     <!-- Hero Section -->
     <section
       class="min-h-screen lg:max-w-7xl mx-auto px-3 py-12 flex gap-12 lg:gap-0 flex-col-reverse lg:flex-row items-center justify-between">
@@ -81,13 +82,13 @@
       </div>
 
       <!-- Lesson Card -->
-      <div id="lessonCard">
+      <div id="lessonCard" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 bg-base-200 rounded-3xl p-5">
 
         <!-- Empty Lesson -->
-        <div class="bg-base-200 py-16 rounded-3xl">
+        <div class="bg-base-200 py-16 rounded-3xl col-span-full">
           <img class="mx-auto" src="/src/assets/alert-error.png" alt="alert pic">
-          <h2 class="bangla-font text-sm text-[#79716B] py-4">এই Lesson এ এখনো কোন Vocabulary যুক্ত করা হয়নি।</h2>
-          <p class="bangla-font font-medium text-4xl text-secondary">নেক্সট Lesson এ যান</p>
+          <h2 class="bangla-font text-sm text-[#79716B] py-4">আপনি এখনো কোন Lesson Select করেন নি ।</h2>
+          <p class="bangla-font font-medium text-4xl text-secondary">একটি Lesson Select করুন।</p>
         </div>
 
       </div>
@@ -141,7 +142,7 @@
 
       </div>
     </section>
-    
+
   </main>
 
   <!-- Footer -->
