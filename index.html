@@ -46,7 +46,8 @@
   <!-- Main -->
   <main>
     <!-- Hero Section -->
-    <section class="min-h-screen lg:max-w-7xl mx-auto px-3 py-12 flex gap-12 lg:gap-0 flex-col-reverse lg:flex-row items-center justify-between">
+    <section
+      class="min-h-screen lg:max-w-7xl mx-auto px-3 py-12 flex gap-12 lg:gap-0 flex-col-reverse lg:flex-row items-center justify-between">
       <!-- Hero Content -->
       <div class="lg:w-1/2">
         <h1 class="font-bold text-5xl text-secondary"><span class="text-[#00BCFF]">English</span> is Easy!!</h1>
@@ -56,8 +57,10 @@
         </p>
         <!-- Hero Form -->
         <form class="space-y-5">
-          <input class="bg-white border border-[#18181B20] rounded-sm text-sm text-secondary/50 p-3 w-full md:w-4/6" type="text" placeholder="Enter Your Name"> <br>
-          <input class="bg-white border border-[#18181B20] rounded-sm text-sm text-secondary/50 p-3 w-full md:w-4/6" type="password" placeholder="Type 4 Digit Pin"> <br>
+          <input class="bg-white border border-[#18181B20] rounded-sm text-sm text-secondary/50 p-3 w-full md:w-4/6"
+            type="text" placeholder="Enter Your Name"> <br>
+          <input class="bg-white border border-[#18181B20] rounded-sm text-sm text-secondary/50 p-3 w-full md:w-4/6"
+            type="password" placeholder="Type 4 Digit Pin"> <br>
           <button class="btn btn-primary" type="submit">Get Started</button>
         </form>
       </div>
@@ -70,8 +73,33 @@
   </main>
 
   <!-- Footer -->
-  <footer>
+  <footer class="border-t-4 border-[#FFEBEB]">
+    <section class="lg:max-w-7xl mx-auto px-3 flex flex-col lg:flex-row items-center justify-between gap-5 py-12 lg:py-24">
+      <!-- Footer Content -->
+      <div class="text-center lg:text-left">
+        <!-- Logo -->
+        <div class="flex items-center justify-center lg:justify-normal gap-0.5">
+          <h2 class="font-semibold text-xl text-secondary">English</h2>
+          <img class="w-10 h-10" src="/src/assets/logo.png" alt="Logo">
+          <p class="text-xl text-secondary bangla-font font-semibold">জানালা</p>
+        </div>
 
+        <h2 class="bangla-font font-semibold text-xl text-secondary mt-4 mb-2">ইংরেজি শিখুন সহজে</h2>
+        <p class="bangla-font text-secondary font-medium">Providing ED-Tech Applications since 2025</p>
+      </div>
+
+      <!-- Footer Icon -->
+      <div>
+        <h4 class="font-semibold text-sm text-secondary mb-3 text-center lg:text-left">Follow us</h4>
+        <!-- icons -->
+        <div>
+          <i class="fa-brands fa-facebook text-3xl cursor-pointer"></i>
+          <i class="fa-brands fa-youtube text-3xl cursor-pointer"></i>
+          <i class="fa-brands fa-instagram text-3xl cursor-pointer"></i>
+          <i class="fa-brands fa-github text-3xl cursor-pointer"></i>
+        </div>
+      </div>
+    </section>
   </footer>
 </body>
 
