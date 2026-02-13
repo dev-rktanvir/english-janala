@@ -17,7 +17,7 @@
 
 <body class="poppins-font">
   <!-- Header -->
-  <header class="bg-[#EDEDED]">
+  <header class="bg-[#EDEDED] border-b border-[#C6BDBD]">
     <!-- Navbar -->
     <nav class="lg:max-w-7xl mx-auto px-3 py-5 flex flex-col gap-3 lg:flex-row items-center justify-between">
       <!-- Logo -->
@@ -40,11 +40,33 @@
         </button>
       </div>
     </nav>
+
   </header>
 
   <!-- Main -->
   <main>
+    <!-- Hero Section -->
+    <section class="min-h-screen lg:max-w-7xl mx-auto px-3 py-12 flex gap-12 lg:gap-0 flex-col-reverse lg:flex-row items-center justify-between">
+      <!-- Hero Content -->
+      <div class="lg:w-1/2">
+        <h1 class="font-bold text-5xl text-secondary"><span class="text-[#00BCFF]">English</span> is Easy!!</h1>
+        <p class="font-medium text-2xl text-secondary bangla-font my-6">
+          আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive
+          Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ
+        </p>
+        <!-- Hero Form -->
+        <form class="space-y-5">
+          <input class="bg-white border border-[#18181B20] rounded-sm text-sm text-secondary/50 p-3 w-full md:w-4/6" type="text" placeholder="Enter Your Name"> <br>
+          <input class="bg-white border border-[#18181B20] rounded-sm text-sm text-secondary/50 p-3 w-full md:w-4/6" type="password" placeholder="Type 4 Digit Pin"> <br>
+          <button class="btn btn-primary" type="submit">Get Started</button>
+        </form>
+      </div>
 
+      <!-- Hero Image -->
+      <div class="lg:w-1/2">
+        <img class="w-full lg:pl-10" src="/src/assets/hero-student.png" alt="">
+      </div>
+    </section>
   </main>
 
   <!-- Footer -->
