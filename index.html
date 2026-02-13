@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
   <meta charset="UTF-8" />
@@ -9,12 +9,37 @@
 
   <!-- Tailwind Css & DaisyUi -->
   <link rel="stylesheet" href="/src/style/style.css">
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="poppins-font">
   <!-- Header -->
-  <header>
+  <header class="bg-[#EDEDED]">
+    <!-- Navbar -->
+    <nav class="lg:max-w-7xl mx-auto px-3 py-5 flex flex-col gap-3 lg:flex-row items-center justify-between">
+      <!-- Logo -->
+      <div class="flex items-center gap-0.5">
+        <h2 class="font-semibold text-xl text-secondary">English</h2>
+        <img class="w-10 h-10" src="/src/assets/logo.png" alt="Logo">
+        <p class="text-xl text-secondary bangla-font font-semibold">জানালা</p>
+      </div>
 
+      <!-- Buttons -->
+      <div class="flex items-center gap-4">
+        <button class="btn btn-outline btn-primary">
+          <i class="fa-solid fa-circle-question"></i> FAQ
+        </button>
+        <button class="btn btn-outline btn-primary">
+          <i class="fa-solid fa-book-open"></i> Learn
+        </button>
+        <button class="btn btn-outline btn-primary">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i> Logout
+        </button>
+      </div>
+    </nav>
   </header>
 
   <!-- Main -->

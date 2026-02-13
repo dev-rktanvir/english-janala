@@ -14,3 +14,11 @@
 /* Tailwind Css & DaisyUi */
 @import "tailwindcss";
 @plugin "daisyui";
+
+@plugin "daisyui/theme" {
+    name: "light";
+    default: true;
+    --color-primary: #422AD5;
+    --color-secondary: #18181B;
+    --color-base-200: #F8F8F8;
+}
